@@ -1,0 +1,374 @@
+{
+  "code": 0,
+  "message": "ok",
+  "result": {
+    "interestPoints": [
+      {
+        "id": 1505315661765,
+        "type": 1,
+        "name": "热门推荐",
+        "originPhotoUrl": null,
+        "selectPhotoUrl": null,
+        "children": [
+          {
+            "id": 400000000146050,
+            "type": 1,
+            "name": "办公软件",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505315661765,
+            "selected": false
+          },
+          {
+            "id": 400000000147052,
+            "type": 1,
+            "name": "设计软件",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505315661765,
+            "selected": false
+          },
+          {
+            "id": 400000000158033,
+            "type": 1,
+            "name": "人工智能与数据",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505315661765,
+            "selected": false
+          },
+          {
+            "id": 400000000652004,
+            "type": 1,
+            "name": "实用英语",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505315661765,
+            "selected": false
+          },
+          {
+            "id": 400000000153042,
+            "type": 1,
+            "name": "投资理财",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505315661765,
+            "selected": false
+          }
+        ],
+        "parentId": -1,
+        "selected": false
+      },
+      {
+        "id": 1505267544351,
+        "type": 1,
+        "name": "IT互联网",
+        "originPhotoUrl": null,
+        "selectPhotoUrl": null,
+        "children": [
+          {
+            "id": 400000000155049,
+            "type": 1,
+            "name": "移动开发",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000146055,
+            "type": 1,
+            "name": "前端开发",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000156046,
+            "type": 1,
+            "name": "产品策划与运营",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000152038,
+            "type": 1,
+            "name": "Python",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000146054,
+            "type": 1,
+            "name": "C语言",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000158033,
+            "type": 1,
+            "name": "人工智能与数据",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000147052,
+            "type": 1,
+            "name": "设计软件",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000743002,
+            "type": 1,
+            "name": "数据科学",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000152039,
+            "type": 1,
+            "name": "Java",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000156044,
+            "type": 1,
+            "name": "系统/硬件",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000155051,
+            "type": 1,
+            "name": "Photoshop",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          },
+          {
+            "id": 400000000599015,
+            "type": 1,
+            "name": "平面设计",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267544351,
+            "selected": false
+          }
+        ],
+        "parentId": -1,
+        "selected": false
+      },
+      {
+        "id": 1505267489496,
+        "type": 1,
+        "name": "职场技能",
+        "originPhotoUrl": null,
+        "selectPhotoUrl": null,
+        "children": [
+          {
+            "id": 400000000584001,
+            "type": 1,
+            "name": "市场营销",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267489496,
+            "selected": false
+          },
+          {
+            "id": 400000000144032,
+            "type": 1,
+            "name": "个人提升",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267489496,
+            "selected": false
+          },
+          {
+            "id": 400000000157042,
+            "type": 1,
+            "name": "管理能力",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267489496,
+            "selected": false
+          },
+          {
+            "id": 400000000149042,
+            "type": 1,
+            "name": "职场能力",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267489496,
+            "selected": false
+          },
+          {
+            "id": 400000000144034,
+            "type": 1,
+            "name": "职业考试",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267489496,
+            "selected": false
+          },
+          {
+            "id": 400000000156038,
+            "type": 1,
+            "name": "PPT",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267489496,
+            "selected": false
+          },
+          {
+            "id": 400000000149040,
+            "type": 1,
+            "name": "Excel",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267489496,
+            "selected": false
+          },
+          {
+            "id": 400000000146050,
+            "type": 1,
+            "name": "办公软件",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267489496,
+            "selected": false
+          },
+          {
+            "id": 400000000652004,
+            "type": 1,
+            "name": "实用英语",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267489496,
+            "selected": false
+          }
+        ],
+        "parentId": -1,
+        "selected": false
+      },
+      {
+        "id": 1505267763887,
+        "type": 1,
+        "name": "生活爱好",
+        "originPhotoUrl": null,
+        "selectPhotoUrl": null,
+        "children": [
+          {
+            "id": 400000000148048,
+            "type": 1,
+            "name": "摄影基础",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267763887,
+            "selected": false
+          },
+          {
+            "id": 400000000150039,
+            "type": 1,
+            "name": "绘画",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267763887,
+            "selected": false
+          },
+          {
+            "id": 400000000153042,
+            "type": 1,
+            "name": "投资理财",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267763887,
+            "selected": false
+          },
+          {
+            "id": 400000000143052,
+            "type": 1,
+            "name": "音乐乐器",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267763887,
+            "selected": false
+          },
+          {
+            "id": 400000000147056,
+            "type": 1,
+            "name": "运动健康",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267763887,
+            "selected": false
+          },
+          {
+            "id": 400000000148049,
+            "type": 1,
+            "name": "影视后期",
+            "originPhotoUrl": null,
+            "selectPhotoUrl": null,
+            "children": [],
+            "parentId": 1505267763887,
+            "selected": false
+          }
+        ],
+        "parentId": -1,
+        "selected": false
+      }
+    ],
+    "isSelected": false
+  },
+  "uuid": null
+}

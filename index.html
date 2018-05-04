@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE-edge">-->
+    <!--<meta name="viewport"-->
+    <!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+    <title>模仿网易云课堂</title>
+    <meta name="description" content="这是一个模仿网易云课堂的作品">
+    <meta name="keywords" content="快来面试我">
+    <meta name="author" content="詹玉佩">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <script src="https://zz.bdstatic.com/linksubmit/push.js"></script>
+    <script src="https://hm.baidu.com/hm.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet/less" href="css/index.less">
+    <script src="js/less.min.js"></script>
+</head>
+<body>
+<!-- .header -->
+<header class="header">
+    <div class="header-top">
+        <div class="container">
+            <span>创造更有效的学习</span>
+            <div class="fl-r">
+                <a href="https://codecombat.163.com?utm_source=study.163.com&utm_medium=web_nav&utm_campaign=business">极客战记</a>
+                <a href="https://codecombat.163.com?utm_source=study.163.com&utm_medium=web_nav&utm_campaign=business">网易一百分</a>
+                <a href="http://www.icourse163.org?utm_source=study.163.com&utm_medium=web_nav&utm_campaign=business">中国大学MOOC</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header-nav">
+            <div class="header-nav-right fl-r">
+                <a href="javascript:;">我的学习</a>
+                <a href="javascript:;">消息</a>
+                <a href="javascript:;">购物车</a>
+                <a href="javascript:;">成为课程提供方</a>
+                <a href="javascript:;" class="header-nav-right-login">
+                    登陆/注册
+                </a>
+                <div class="header-top-right-userinfo" id="header_top_right_userinfo">
+                    <img src="img/small.jpg" alt="">
+                    <ul class="header-top-right-userinfo-bar">
+                        <li><a href="#">游客请登录</a></li>
+
+                        <li><a href="javascript:;">我的优惠券 <span>对话</span></a></li>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">帮助与反馈</a></li>
+                        <li><a href="#">设置</a></li>
+                    </ul>
+                </div>
+            </div>
+            <h1 class="header-nav-left">
+                <a href="http://study.163.com" class="header-nav-left-logo">
+                    网易云课堂
+                    <img src="img/logo5.png">
+                </a>
+            </h1>
+        </div>
+    </div>
+</header>
+<!-- /.header -->
+<!-- .point-intrest-->
+<section class="loading" id="loading">
+    <img src="img/loading.gif" alt="">
+</section>
+<section class="point-intrest" id="intrest_panel">
+    <div class="point-intrest-panel">
+        <h4 class="point-intrest-panel-title">请选择你感兴趣的知识 <span>至少选择一项，可以随时调整</span></h4>
+        <div id="intrest_panel_ops">
+        </div>
+        <p class="point-intrest-bottom"><a class="point-intrest-bottom-btn">选好了 </a><span
+                class="point-intrest-bottom-ops">已选过,登陆账号></span></p>
+        <i class="ux-ykt-icon-circle" id="ux_icon_close"></i>
+
+    </div>
+</section>
+<!-- /.point-intrest-->
+
+<!-- .nav -->
+<nav class="nav">
+    <div class="container">
+        <div class="nav-left">
+            <a href="#" class="nav-left-title">全部精品课</a>
+            <ul class="nav-left-catalog">
+                <li class="nav_left-catalog-item nav_left_catalog_item">
+                    <a href="#" class="nav-left-catalog-all">办公效率</a>
+                    <a href="#" class="nav-left-catalog-specific">PPT</a>
+                    <a href="#" class="nav-left-catalog-specific">Word</a>
+                    <a href="#" class="nav-left-catalog-specific">Excel</a>
+                </li>
+                <li class="nav_left-catalog-item nav_left_catalog_item">
+                    <a href="#" class="nav-left-catalog-all">办公效率</a>
+                    <a href="#" class="nav-left-catalog-specific">PPT</a>
+                    <a href="#" class="nav-left-catalog-specific">Word</a>
+                    <a href="#" class="nav-left-catalog-specific">Excel</a>
+                </li>
+                <li class="nav_left-catalog-item nav_left_catalog_item">
+                    <a href="#" class="nav-left-catalog-all">办公效率</a>
+                    <a href="#" class="nav-left-catalog-specific">PPT</a>
+                    <a href="#" class="nav-left-catalog-specific">Word</a>
+                    <a href="#" class="nav-left-catalog-specific">Excel</a>
+                </li>
+                <li class="nav_left-catalog-item nav_left_catalog_item">
+                    <a href="#" class="nav-left-catalog-all">办公效率</a>
+                    <a href="#" class="nav-left-catalog-specific">PPT</a>
+                    <a href="#" class="nav-left-catalog-specific">Word</a>
+                    <a href="#" class="nav-left-catalog-specific">Excel</a>
+                </li>
+                <li class="nav_left-catalog-item nav_left_catalog_item">
+                    <a href="#" class="nav-left-catalog-all">办公效率</a>
+                    <a href="#" class="nav-left-catalog-specific">PPT</a>
+                    <a href="#" class="nav-left-catalog-specific">Word</a>
+                    <a href="#" class="nav-left-catalog-specific">Excel</a>
+                </li>
+                <li class="nav_left-catalog-item nav_left_catalog_item">
+                    <a href="#" class="nav-left-catalog-all">办公效率</a>
+                    <a href="#" class="nav-left-catalog-specific">PPT</a>
+                    <a href="#" class="nav-left-catalog-specific">Word</a>
+                    <a href="#" class="nav-left-catalog-specific">Excel</a>
+                </li>
+                <li class="nav_left-catalog-item nav_left_catalog_item">
+                    <a href="#" class="nav-left-catalog-all">办公效率</a>
+                    <a href="#" class="nav-left-catalog-specific">PPT</a>
+                    <a href="#" class="nav-left-catalog-specific">Word</a>
+                    <a href="#" class="nav-left-catalog-specific">Excel</a>
+                </li>
+            </ul>
+            <ul class="nav-left-catalog-specific-list nav_left_list">
+
+                <li class="nav_left_catalog_de nav-left-catalog-specific-item">
+                    <div class="nav-left-catalog-specific-item-left">
+                        <p class="catalog-specific-item-rencommend">
+                            <a href="#">办公效率 精选好课</a>
+                            <a href="#">跟刘万祥学Excel商务图表</a>
+                        </p>
+                        <dl class="catalog-item-sort">
+                            <dt class="catalog-item-sort-title">办公软件1</dt>
+                            <dd class="catalog-item-sort-class">
+                                |<a href="#">PPT</a>|
+                                <a href="#">Excel</a>|
+                                <a href="#"> Word </a>|
+                                <a href="#">Project</a>|
+                                <a href="#">Keynote</a>|
+                                <a href="#"> Outlook</a>|
+                                <a href="#"> 更多软件</a>
+                            </dd>
+                            <dd class="catalog-item-sort-class">
+                            <dt class="catalog-item-sort-title">工作效率</dt>
+                            <dd class="catalog-item-sort-class">
+                                <a href="#">时间管理</a>|
+                                <a href="#">思维导图</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl class="nav-left-catalog-specific-item-right">
+                        <dt>系列课程1</dt>
+                        <dd><a href="#">BI数据分析可视化</a></dd>
+                        <dd><a href="#">Excel+PPT+Word小白变大神</a></dd>
+                        <dd><a href="#">向《经济学人》学图表</a></dd>
+                        <dd><a href="#">向商业期刊学图表</a></dd>
+                        <dd><a href="#">如何成为真正的PPT高手</a></dd>
+                        <dd><a href="#">更多>></a></dd>
+
+                    </dl>
+
+                </li>
+                <li class="nav_left_catalog_de nav-left-catalog-specific-item">
+                    <div class="nav-left-catalog-specific-item-left">
+                        <p class="catalog-specific-item-rencommend">
+                            <a href="#">办公效率 精选好课</a>
+                            <a href="#">跟刘万祥学Excel商务图表</a>
+                        </p>
+                        <dl class="catalog-item-sort">
+                            <dt class="catalog-item-sort-title">办公软件2</dt>
+                            <dd class="catalog-item-sort-class">
+                                |<a href="#">PPT</a>|
+                                <a href="#">Excel</a>|
+                                <a href="#"> Word </a>|
+                                <a href="#">Project</a>|
+                                <a href="#">Keynote</a>|
+                                <a href="#"> Outlook</a>|
+                                <a href="#"> 更多软件</a>
+                            </dd>
+                            <dd class="catalog-item-sort-class">
+                            <dt class="catalog-item-sort-title">工作效率</dt>
+                            <dd class="catalog-item-sort-class">
+                                <a href="#">时间管理</a>|
+                                <a href="#">思维导图</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl class="nav-left-catalog-specific-item-right">
+                        <dt>系列课程2</dt>
+                        <dd><a href="#">BI数据分析可视化</a></dd>
+                        <dd><a href="#">Excel+PPT+Word小白变大神</a></dd>
+                        <dd><a href="#">向《经济学人》学图表</a></dd>
+                        <dd><a href="#">向商业期刊学图表</a></dd>
+                        <dd><a href="#">如何成为真正的PPT高手</a></dd>
+                        <dd><a href="#">更多>></a></dd>
+
+                    </dl>
+                </li>
+                <li class="nav_left_catalog_de nav-left-catalog-specific-item">
+                    <div class="nav-left-catalog-specific-item-left">
+                        <p class="catalog-specific-item-rencommend">
+                            <a href="#">办公效率34 精选好课</a>
+                            <a href="#">跟刘万祥学Excel商务图表</a>
+                        </p>
+                        <dl class="catalog-item-sort">
+                            <dt class="catalog-item-sort-title">办公软件</dt>
+                            <dd class="catalog-item-sort-class">
+                                |<a href="#">PPT</a>|
+                                <a href="#">Excel</a>|
+                                <a href="#"> Word </a>|
+                                <a href="#">Project</a>|
+                                <a href="#">Keynote</a>|
+                                <a href="#"> Outlook</a>|
+                                <a href="#"> 更多软件</a>
+                            </dd>
+                            <dd class="catalog-item-sort-class">
+                            <dt class="catalog-item-sort-title">工作效率</dt>
+                            <dd class="catalog-item-sort-class">
+                                <a href="#">时间管理</a>|
+                                <a href="#">思维导图</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl class="nav-left-catalog-specific-item-right">
+                        <dt>系列课程3</dt>
+                        <dd><a href="#">BI数据分析可视化</a></dd>
+                        <dd><a href="#">Excel+PPT+Word小白变大神</a></dd>
+                        <dd><a href="#">向《经济学人》学图表</a></dd>
+                        <dd><a href="#">向商业期刊学图表</a></dd>
+                        <dd><a href="#">如何成为真正的PPT高手</a></dd>
+                        <dd><a href="#">更多>></a></dd>
+
+                    </dl>
+
+                </li>
+                <li class="nav_left_catalog_de nav-left-catalog-specific-item">
+                    <div class="nav-left-catalog-specific-item-left">
+                        <p class="catalog-specific-item-rencommend">
+                            <a href="#">办公效率45 精选好课</a>
+                            <a href="#">跟刘34万祥学Excel商务图表</a>
+                        </p>
+                        <dl class="catalog-item-sort">
+                            <dt class="catalog-item-sort-title">办公软件234</dt>
+                            <dd class="catalog-item-sort-class">
+                                |<a href="#">PPT</a>|
+                                <a href="#">Excel</a>|
+                                <a href="#"> Word </a>|
+                                <a href="#">Project</a>|
+                                <a href="#">Keynote</a>|
+                                <a href="#"> Outlook</a>|
+                                <a href="#"> 更多软件</a>
+                            </dd>
+                            <dd class="catalog-item-sort-class">
+                            <dt class="catalog-item-sort-title">工作效率</dt>
+                            <dd class="catalog-item-sort-class">
+                                <a href="#">时间管理</a>|
+                                <a href="#">思维导图</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl class="nav-left-catalog-specific-item-right">
+                        <dt>系列课程</dt>
+                        <dd><a href="#">BI数据分析可视化</a></dd>
+                        <dd><a href="#">Excel+PPT+Word小白变大神</a></dd>
+                        <dd><a href="#">向《经济学人》学图表</a></dd>
+                        <dd><a href="#">向商业期刊学图表</a></dd>
+                        <dd><a href="#">如何成为真正的PPT高手</a></dd>
+                        <dd><a href="#">更多>></a></dd>
+
+                    </dl>
+
+                </li>
+                <li class="nav_left_catalog_de nav-left-catalog-specific-item">
+                    <div class="nav-left-catalog-specific-item-left">
+                        <p class="catalog-specific-item-rencommend">
+                            <a href="#">办公效率 精选好课</a>
+                            <a href="#">跟刘万祥学Excel商务图表</a>
+                        </p>
+                        <dl class="catalog-item-sort">
+                            <dt class="catalog-item-sort-title">办公软345件</dt>
+                            <dd class="catalog-item-sort-class">
+                                |<a href="#">PPT</a>|
+                                <a href="#">Excel</a>|
+                                <a href="#"> Word </a>|
+                                <a href="#">Project</a>|
+                                <a href="#">Keynote</a>|
+                                <a href="#"> Outlook</a>|
+                                <a href="#"> 更多软件</a>
+                            </dd>
+                            <dd class="catalog-item-sort-class">
+                            <dt class="catalog-item-sort-title">工作效率</dt>
+                            <dd class="catalog-item-sort-class">
+                                <a href="#">时间管理</a>|
+                                <a href="#">思维导图</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl class="nav-left-catalog-specific-item-right">
+                        <dt>系列课程</dt>
+                        <dd><a href="#">BI数据分析可视化</a></dd>
+                        <dd><a href="#">Excel+PPT+Word小白变大神</a></dd>
+                        <dd><a href="#">向《经济学人》学图表</a></dd>
+                        <dd><a href="#">向商业期刊学图表</a></dd>
+                        <dd><a href="#">如何成为真正的PPT高手</a></dd>
+                        <dd><a href="#">更多>></a></dd>
+
+                    </dl>
+
+                </li>
+                <li class="nav_left_catalog_de nav-left-catalog-specific-item">
+                    <div class="nav-left-catalog-specific-item-left">
+                        <p class="catalog-specific-item-rencommend">
+                            <a href="#">办公效率 精选好课</a>
+                            <a href="#">跟刘万祥学Excel商务图表</a>
+                        </p>
+                        <dl class="catalog-item-sort">
+                            <dt class="catalog-item-sort-title">办公软件</dt>
+                            <dd class="catalog-item-sort-class">
+                                |<a href="#">PPT</a>|
+                                <a href="#">Excel</a>|
+                                <a href="#"> Word </a>|
+                                <a href="#">Project</a>|
+                                <a href="#">Keynote</a>|
+                                <a href="#"> Outlook</a>|
+                                <a href="#"> 更多软件</a>
+                            </dd>
+                            <dd class="catalog-item-sort-class">
+                            <dt class="catalog-item-sort-title">工作效率</dt>
+                            <dd class="catalog-item-sort-class">
+                                <a href="#">时间管理</a>|
+                                <a href="#">思维导图</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl class="nav-left-catalog-specific-item-right">
+                        <dt>系列课程</dt>
+                        <dd><a href="#">BI数据分析可视化</a></dd>
+                        <dd><a href="#">Excel+PPT+Word小白变大神</a></dd>
+                        <dd><a href="#">向《经济学人》学图表</a></dd>
+                        <dd><a href="#">向商业期刊学图表</a></dd>
+                        <dd><a href="#">如何成为真正的PPT高手</a></dd>
+                        <dd><a href="#">更多>></a></dd>
+
+                    </dl>
+
+                </li>
+                <li class="nav_left_catalog_de nav-left-catalog-specific-item">
+                    <div class="nav-left-catalog-specific-item-left">
+                        <p class="catalog-specific-item-rencommend">
+                            <a href="#">办公效率222 精选好课</a>
+                            <a href="#">跟刘万祥学Excel商务图表</a>
+                        </p>
+                        <dl class="catalog-item-sort">
+                            <dt class="catalog-item-sort-title">办公软件</dt>
+                            <dd class="catalog-item-sort-class">
+                                |<a href="#">PPT</a>|
+                                <a href="#">Excel</a>|
+                                <a href="#"> Word </a>|
+                                <a href="#">Project</a>|
+                                <a href="#">Keynote</a>|
+                                <a href="#"> Outlook</a>|
+                                <a href="#"> 更多软件</a>
+                            </dd>
+                            <dd class="catalog-item-sort-class">
+                            <dt class="catalog-item-sort-title">工作效率</dt>
+                            <dd class="catalog-item-sort-class">
+                                <a href="#">时间管理</a>|
+                                <a href="#">思维导图</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl class="nav-left-catalog-specific-item-right">
+                        <dt>系列课程</dt>
+                        <dd><a href="#">BI数据分析可视化</a></dd>
+                        <dd><a href="#">Excel+PPT+Word小白变大神</a></dd>
+                        <dd><a href="#">向《经济学人》学图表</a></dd>
+                        <dd><a href="#">向商业期刊学图表</a></dd>
+                        <dd><a href="#">如何成为真正的PPT高手</a></dd>
+                        <dd><a href="#">更多>></a></dd>
+
+                    </dl>
+
+                </li>
+                <li class="nav_left_catalog_de nav-left-catalog-close" id="nav_left_catalog_close">
+                    <i class="ux-ykt-icon-circle" id="ux_icon_close"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-middle">
+            <dl class="nav-middle-item">
+                <dt class="nav-middle-item-title">
+                    <a href="#">微专业</a>
+                </dt>
+            </dl>
+            <dl class="nav-middle-item">
+                <dt class="nav-middle-item-title">
+                    <a href="#">课程体系</a>
+                </dt>
+                <dd class="nav-middle-item-content nav-middle-item-course">
+                    <a href="#">IBM认知计算</a>
+                    <a href="#">大学计算机专业</a>
+                    <a href="#">互联网职业技能</a>
+                    <a href="#">职场提升课程体系</a>
+                </dd>
+            </dl>
+            <dl class="nav-middle-item">
+                <dt class="nav-middle-item-title">
+                    <a href="#">下载APP</a>
+                </dt>
+                <dd class="nav-middle-item-content app-download">
+                    <img class="ewm" src="img/nav_qrcode.png" alt="">
+                    <div class="download-app">
+                        <p>扫码下载官方App</p>
+                        <a href="//study.163.com/pub/study-android-official.apk" class="download-app-an"></a>
+                        <a href="//study.163.com/pub/study-android-official.apk" class="download-app-ios"></a>
+                    </div>
+                </dd>
+            </dl>
+            <dl class="nav-middle-item">
+                <dt class="nav-middle-item-title">
+                    <a href="#">企业培训</a>
+                </dt>
+            </dl>
+        </div>
+        <div class="fl-r nav-right">
+            <div class="search-form">
+                <div class="nav-right-search-ops" id="search_mode">
+                    <a href="#">提供方</a>
+                    <a href="#" class="ops-unvisible">课程</a>
+                    <b></b>
+                </div>
+                <input type="text" placeholder="搜索课程" id="search_input" autocomplete="off">
+                <span class="serch-icon"></span>
+            </div>
+            <dl class="search-panel" id="search_panel" data-index="-1">
+                <dt>历史搜索 <span class="delete-ops"><i class="delete-icon f-icon"></i>清空</span></dt>
+                <dd>vue</dd>
+
+                <dt>热门搜索</dt>
+                <dd>vuex</dd>
+            </dl>
+            <img class="fixed-img" src="img/app.png" alt="">
+        </div>
+    </div>
+
+</nav>
+<!-- /.nav -->
+
+<!-- .slider -->
+<section class="slider">
+    <div class="slider-item" id="top_slider_item">
+        <ul class="top-slider" id="top_slider">
+        </ul>
+        <ul class="pagination">
+        </ul>
+        <span class="arr-l"></span>
+        <span class="arr-r"></span>
+    </div>
+    <div class="container slider-bottom" id="wzy_slider_wrap">
+        <ul data-translate="0" id="wzy_slider" class="slider-bottom-item">
+            <li class="slider">
+                <a href="#">
+                    <apan></apan>
+                    <h5>互联网项目管理经验</h5>
+                    <p>网易一线成功产品项目</p>
+                </a>
+            </li>
+            <li class="slider">
+                <a href="#">
+                    <apan></apan>
+                    <h5>Web安全（进阶）</h5>
+                    <p>网络安全高手蜕变之旅</p>
+                </a>
+            </li>
+            <li class="slider">
+                <a href="#">
+                    <apan></apan>
+                    <h5>高级UI设计师</h5>
+                    <p>最详尽深入的产品设计指导</p>
+                </a>
+            </li>
+            <li class="slider">
+                <a href="#">
+                    <apan></apan>
+                    <h5>全栈新媒体运营</h5>
+                    <p>成为行业抢手的新媒体人</p>
+                </a>
+            </li>
+            <li class="slider">
+                <a href="#">
+                    <apan></apan>
+                    <h5>高级前端开发工程师</h5>
+                    <p>网易前端开发专家亲授</p>
+                </a>
+            </li>
+            <li class="slider">
+                <a href="#">
+                    <apan></apan>
+                    <h5>自由摄影师</h5>
+                    <p>摄影爱好者向专业进阶</p>
+                </a>
+            </li>
+            <li class="slider">
+                <a href="#">
+                    <apan></apan>
+                    <h5>Web安全（进阶）</h5>
+                    <p>网络安全高手蜕变之旅</p>
+                </a>
+            </li>
+        </ul>
+        <span class="arr-l wzy_slider_arrow"></span>
+        <span class="arr-r wzy_slider_arrow"></span>
+    </div>
+</section>
+<!--  /.slider -->
+
+<!--.self-recommend -->
+<section class="self-recommend">
+    <div class="container">
+        <div class="self-recommend-item" id="self_recommend"></div>
+    </div>
+</section>
+<!-- /.self-recommend -->
+
+<!-- .wy-recommend -->
+<section class="wy-recommend">
+    <div class="container">
+        <ul class="wy_recommend_wrap wy-recommend-wrap">
+
+        </ul>
+    </div>
+
+</section>
+<!-- /.wy-recommend -->
+
+<!-- .course-set -->
+<secttion class="course-set">
+    <div class="container">
+        <ul class="course-set-content course_set_content">
+        </ul>
+    </div>
+</secttion>
+<!-- /.course-set-->
+
+<!-- .good-course-recommend -->
+<section class="good-course-recommend">
+    <div class="container">
+        <ul class="good-course-content good_course">
+            <li class="item">
+                <div class="item-top">
+                    <a href="" class="item-top-link">
+                        <img src="" alt="" class="item-top-img">
+                    </a>
+                </div>
+                <div class="item-bottom">
+                    <h5 class="item-bottom-title"></h5>
+                    <p class="item-bottom-subtitle"></p>
+                    <div>
+                        <div class="item-bottom-start">
+
+                        </div>
+                        <span class="line">|</span>
+                        <p class="learned-num"></p>
+                    </div>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+</section>
+<!--/.good-course-recommend-->
+
+<!-- .aside-nav -->
+<div class="aside-nav aside_nav">
+    <div class="message"><span>信息</span></div>
+    <div class="phone-app"><span>手机</span></div>
+    <div class="to-top  to_top"><span>top</span></div>
+</div>
+<!-- /.aside-nav -->
+
+<!-- .footer-->
+<footer class="footer">
+    <div class="cooper-partner">
+        <div class="container">
+            <h4 class="cooper-title">合作机构</h4>
+            <ul class="cooper-item-list">
+                <li class="cooper-item">
+                    <a href="#" class="cooper-item-one">aaa</a>
+                    <a href="#" class="cooper-item-one">aaa</a>
+                    <a href="#" class="cooper-item-one">aaa</a>
+                    <a href="#" class="cooper-item-one">aaa</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="link">
+        <div class="container">
+            <p class="shengming">网易云课堂 是网易公司（163.com）旗下在线教育平台，专注于职场与生活领域的技能提升</p>
+            <p class="links">
+                <a href="#">关于我们</a>
+                <a href="#">联系我们</a>
+                <a href="#">企业培训</a>
+                <a href="#">中国大学MOOC</a>
+                <a href="#">网易卡搭</a>
+                <a href="#">网易100分</a>
+            </p>
+            <div class="copyright">
+                &copy;1997-2018 网易公司 版权所有
+            </div>
+        </div>
+
+</footer>
+<!-- /.footer -->
+
+<!--<script src="js/commons~index~vendor.boundle.js"></script>-->
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script src="js/index.js"></script>
+<script>
+    $(function () {
+        pageIndex.init();
+    })
+</script>
+
+</body>
+</html>
